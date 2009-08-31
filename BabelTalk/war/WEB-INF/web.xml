@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="2.5">
+  
+    <servlet>
+        <servlet-name>BabelRobot</servlet-name>
+        <servlet-class>com.chrisyunker.wave.BabelRobot</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BabelRobot</servlet-name>
+        <url-pattern>/_wave/robot/jsonrpc</url-pattern>
+    </servlet-mapping>  
+ 
+    <servlet>
+        <servlet-name>Profile</servlet-name>
+        <servlet-class>com.chrisyunker.wave.Profile</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Profile</servlet-name>
+        <url-pattern>/_wave/robot/profile</url-pattern>
+    </servlet-mapping> 
+  
+</web-app>

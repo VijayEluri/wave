@@ -1,0 +1,9 @@
+# mac platform
+.DS_Store
+
+# java dev
+.class
+classes
+
+ApiLib
+
