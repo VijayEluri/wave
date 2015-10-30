@@ -20,14 +20,16 @@ import com.google.wave.api.Image;
 import com.google.wave.api.RobotMessageBundle;
 import com.google.wave.api.TextView;
 import com.google.wave.api.Wavelet;
-
+/* Google Wave shutdown
+ * End of Development in 2010
+ */
 @SuppressWarnings("serial")
 public class BabelRobot extends AbstractRobotServlet
 {
 	static private final String FLICKR_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 	
-	static public final String FLICKR_API_OK = "ok";
-	static public final String FLICKR_API_FAIL = "fail";
+	static public final String FLICKR_API_OK = "OK";
+	static public final String FLICKR_API_FAIL = "FAIL";
 	
 	private Pattern pattern = Pattern.compile("pic:([\\w\\d\\s\\,]+)", Pattern.CASE_INSENSITIVE);
 	
